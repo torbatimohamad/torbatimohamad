@@ -12,7 +12,7 @@ import sys
 import time
 from pathlib import Path
 
-SD_URL = "http://localhost:7860"
+SD_URL = "http://192.168.1.55:7860"
 OUTPUT_DIR = Path("outputs")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
